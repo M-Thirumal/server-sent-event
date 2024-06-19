@@ -26,4 +26,10 @@ public class LogController {
 		return logsSseService.newSseEmitter();
 	}
 
+	
+	@GetMapping(path = "/generate-log")
+	public int generateLog() {
+		return logsSseService.generateLog();
+	}
+
 }

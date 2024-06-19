@@ -13,4 +13,193 @@
 2021-08-27 21:30:54.977  INFO 9421 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-08-27 21:30:54.978  INFO 9421 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2021-08-27 21:30:54.980  INFO 9421 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-s
+s2024-06-19T09:51:11.027+05:30  INFO 1751 --- [restartedMain] in.thirumal.ServerSentEventApplication   : Starting ServerSentEventApplication using Java 21.0.2 with PID 1751 (/Users/thirumal/git/server-sent-event/target/classes started by thirumal in /Users/thirumal/git/server-sent-event)
+2024-06-19T09:51:11.028+05:30  INFO 1751 --- [restartedMain] in.thirumal.ServerSentEventApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T09:51:11.052+05:30  INFO 1751 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-19T09:51:11.052+05:30  INFO 1751 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-19T09:51:11.532+05:30  INFO 1751 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-19T09:51:11.541+05:30  INFO 1751 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T09:51:11.541+05:30  INFO 1751 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T09:51:11.561+05:30  INFO 1751 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T09:51:11.562+05:30  INFO 1751 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 510 ms
+2024-06-19T09:51:11.737+05:30  INFO 1751 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-19T09:51:11.751+05:30  INFO 1751 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-19T09:51:11.758+05:30  INFO 1751 --- [restartedMain] in.thirumal.ServerSentEventApplication   : Started ServerSentEventApplication in 0.898 seconds (process running for 1.467)
+2024-06-19T09:51:25.175+05:30  INFO 1751 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19T09:51:25.175+05:30  INFO 1751 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-19T09:51:25.176+05:30  INFO 1751 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+qewqw
+2024-06-19T09:56:45.267+05:30  INFO 1751 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-19T09:56:45.306+05:30  WARN 1751 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-06-19T09:56:45.306+05:30  WARN 1751 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-06-19T09:56:45.306+05:30  WARN 1751 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-06-19T09:56:45.529+05:30  INFO 1751 --- [restartedMain] in.thirumal.ServerSentEventApplication   : Starting ServerSentEventApplication using Java 21.0.2 with PID 1751 (/Users/thirumal/git/server-sent-event/target/classes started by thirumal in /Users/thirumal/git/server-sent-event)
+2024-06-19T09:56:45.530+05:30  INFO 1751 --- [restartedMain] in.thirumal.ServerSentEventApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T09:56:45.783+05:30  INFO 1751 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-19T09:56:45.783+05:30  INFO 1751 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T09:56:45.783+05:30  INFO 1751 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T09:56:45.787+05:30  INFO 1751 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T09:56:45.788+05:30  INFO 1751 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 255 ms
+2024-06-19T09:56:45.832+05:30  INFO 1751 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-19T09:56:45.836+05:30  INFO 1751 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-19T09:56:45.839+05:30  INFO 1751 --- [restartedMain] in.thirumal.ServerSentEventApplication   : Started ServerSentEventApplication in 0.333 seconds (process running for 335.597)
+2024-06-19T09:56:45.840+05:30  INFO 1751 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-19T09:56:56.254+05:30  INFO 1751 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19T09:56:56.265+05:30  INFO 1751 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-19T09:56:56.269+05:30  INFO 1751 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-06-19T09:57:08.564+05:30  INFO 1830 --- [restartedMain] in.thirumal.ServerSentEventApplication   : Starting ServerSentEventApplication using Java 21.0.2 with PID 1830 (/Users/thirumal/git/server-sent-event/target/classes started by thirumal in /Users/thirumal/git/server-sent-event)
+2024-06-19T09:57:08.565+05:30  INFO 1830 --- [restartedMain] in.thirumal.ServerSentEventApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T09:57:08.589+05:30  INFO 1830 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-19T09:57:08.589+05:30  INFO 1830 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-19T09:57:09.006+05:30  INFO 1830 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-19T09:57:09.013+05:30  INFO 1830 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T09:57:09.013+05:30  INFO 1830 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T09:57:09.031+05:30  INFO 1830 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T09:57:09.032+05:30  INFO 1830 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 442 ms
+2024-06-19T09:57:09.183+05:30  INFO 1830 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-19T09:57:09.195+05:30  INFO 1830 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-19T09:57:09.200+05:30  INFO 1830 --- [restartedMain] in.thirumal.ServerSentEventApplication   : Started ServerSentEventApplication in 0.868 seconds (process running for 1.566)
+2024-06-19T09:57:14.671+05:30  INFO 1830 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19T09:57:14.671+05:30  INFO 1830 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-19T09:57:14.672+05:30  INFO 1830 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-19T09:57:29.702+05:30  WARN 1830 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter for [class java.lang.Integer] with preset Content-Type 'null']
+2024-06-19T09:57:54.001+05:30  INFO 1830 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-19T09:57:54.007+05:30  WARN 1830 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-06-19T09:57:54.008+05:30  WARN 1830 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-06-19T09:57:54.008+05:30  WARN 1830 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-06-19T09:57:54.008+05:30  WARN 1830 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-06-19T09:57:54.052+05:30  INFO 1830 --- [restartedMain] in.thirumal.ServerSentEventApplication   : Starting ServerSentEventApplication using Java 21.0.2 with PID 1830 (/Users/thirumal/git/server-sent-event/target/classes started by thirumal in /Users/thirumal/git/server-sent-event)
+2024-06-19T09:57:54.053+05:30  INFO 1830 --- [restartedMain] in.thirumal.ServerSentEventApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T09:57:54.168+05:30  INFO 1830 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-19T09:57:54.169+05:30  INFO 1830 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T09:57:54.169+05:30  INFO 1830 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T09:57:54.173+05:30  INFO 1830 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T09:57:54.173+05:30  INFO 1830 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 118 ms
+2024-06-19T09:57:54.212+05:30  INFO 1830 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-19T09:57:54.217+05:30  INFO 1830 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-19T09:57:54.219+05:30  INFO 1830 --- [restartedMain] in.thirumal.ServerSentEventApplication   : Started ServerSentEventApplication in 0.188 seconds (process running for 46.587)
+2024-06-19T09:57:54.219+05:30  INFO 1830 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-19T09:58:01.489+05:30  INFO 1830 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19T09:58:01.490+05:30  INFO 1830 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-19T09:58:01.495+05:30  INFO 1830 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-06-19T09:59:39.612+05:30  INFO 1830 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-19T09:59:39.618+05:30  WARN 1830 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-06-19T09:59:39.619+05:30  WARN 1830 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-06-19T09:59:39.695+05:30  INFO 1830 --- [restartedMain] in.thirumal.ServerSentEventApplication   : Starting ServerSentEventApplication using Java 21.0.2 with PID 1830 (/Users/thirumal/git/server-sent-event/target/classes started by thirumal in /Users/thirumal/git/server-sent-event)
+2024-06-19T09:59:39.695+05:30  INFO 1830 --- [restartedMain] in.thirumal.ServerSentEventApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T09:59:40.025+05:30  INFO 1830 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-19T09:59:40.026+05:30  INFO 1830 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T09:59:40.026+05:30  INFO 1830 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T09:59:40.029+05:30  INFO 1830 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T09:59:40.029+05:30  INFO 1830 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 330 ms
+2024-06-19T09:59:40.059+05:30  INFO 1830 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-19T09:59:40.063+05:30  INFO 1830 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-19T09:59:40.065+05:30  INFO 1830 --- [restartedMain] in.thirumal.ServerSentEventApplication   : Started ServerSentEventApplication in 0.387 seconds (process running for 152.437)
+2024-06-19T09:59:40.065+05:30  INFO 1830 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-19T09:59:47.277+05:30  INFO 1830 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19T09:59:47.278+05:30  INFO 1830 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-19T09:59:47.280+05:30  INFO 1830 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-06-19T09:59:57.638+05:30  INFO 1830 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-19T09:59:57.700+05:30  INFO 1830 --- [restartedMain] in.thirumal.ServerSentEventApplication   : Starting ServerSentEventApplication using Java 21.0.2 with PID 1830 (/Users/thirumal/git/server-sent-event/target/classes started by thirumal in /Users/thirumal/git/server-sent-event)
+2024-06-19T09:59:57.700+05:30  INFO 1830 --- [restartedMain] in.thirumal.ServerSentEventApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T09:59:57.790+05:30  INFO 1830 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-19T09:59:57.790+05:30  INFO 1830 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T09:59:57.790+05:30  INFO 1830 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T09:59:57.793+05:30  INFO 1830 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T09:59:57.793+05:30  INFO 1830 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 92 ms
+2024-06-19T09:59:57.822+05:30  INFO 1830 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-19T09:59:57.826+05:30  INFO 1830 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-19T09:59:57.828+05:30  INFO 1830 --- [restartedMain] in.thirumal.ServerSentEventApplication   : Started ServerSentEventApplication in 0.144 seconds (process running for 170.2)
+2024-06-19T09:59:57.828+05:30  INFO 1830 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-19T10:00:00.442+05:30  INFO 1830 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19T10:00:00.443+05:30  INFO 1830 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-19T10:00:00.445+05:30  INFO 1830 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-06-19T10:00:00.448+05:30  INFO 1830 --- [http-nio-8080-exec-1] in.thirumal.service.LogsSseService       : ha 0
+2024-06-19T10:00:00.461+05:30  INFO 1830 --- [http-nio-8080-exec-1] in.thirumal.service.LogsSseService       : ha 1
+2024-06-19T10:00:00.461+05:30  INFO 1830 --- [http-nio-8080-exec-1] in.thirumal.service.LogsSseService       : ha 2
+2024-06-19T10:00:00.462+05:30  INFO 1830 --- [http-nio-8080-exec-1] in.thirumal.service.LogsSseService       : ha 3
+2024-06-19T10:00:00.462+05:30  INFO 1830 --- [http-nio-8080-exec-1] in.thirumal.service.LogsSseService       : ha 4
+2024-06-19T10:00:07.313+05:30  INFO 1830 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-19T10:00:07.379+05:30  INFO 1830 --- [restartedMain] in.thirumal.ServerSentEventApplication   : Starting ServerSentEventApplication using Java 21.0.2 with PID 1830 (/Users/thirumal/git/server-sent-event/target/classes started by thirumal in /Users/thirumal/git/server-sent-event)
+2024-06-19T10:00:07.379+05:30  INFO 1830 --- [restartedMain] in.thirumal.ServerSentEventApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T10:00:07.523+05:30  INFO 1830 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-19T10:00:07.524+05:30  INFO 1830 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T10:00:07.524+05:30  INFO 1830 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T10:00:07.528+05:30  INFO 1830 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T10:00:07.528+05:30  INFO 1830 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 148 ms
+2024-06-19T10:00:07.574+05:30  INFO 1830 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-19T10:00:07.577+05:30  INFO 1830 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-19T10:00:07.579+05:30  INFO 1830 --- [restartedMain] in.thirumal.ServerSentEventApplication   : Started ServerSentEventApplication in 0.213 seconds (process running for 179.952)
+2024-06-19T10:00:07.580+05:30  INFO 1830 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-19T10:00:12.034+05:30  INFO 1830 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19T10:00:12.035+05:30  INFO 1830 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-19T10:00:12.044+05:30  INFO 1830 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2024-06-19T10:00:15.201+05:30  INFO 1830 --- [http-nio-8080-exec-2] in.thirumal.service.LogsSseService       : ha 0
+2024-06-19T10:00:15.202+05:30  INFO 1830 --- [http-nio-8080-exec-2] in.thirumal.service.LogsSseService       : ha 1
+2024-06-19T10:00:15.202+05:30  INFO 1830 --- [http-nio-8080-exec-2] in.thirumal.service.LogsSseService       : ha 2
+2024-06-19T10:00:15.202+05:30  INFO 1830 --- [http-nio-8080-exec-2] in.thirumal.service.LogsSseService       : ha 3
+2024-06-19T10:00:15.202+05:30  INFO 1830 --- [http-nio-8080-exec-2] in.thirumal.service.LogsSseService       : ha 4
+2024-06-19T10:00:25.582+05:30  INFO 1830 --- [http-nio-8080-exec-3] in.thirumal.service.LogsSseService       : ha 0
+2024-06-19T10:00:25.583+05:30  INFO 1830 --- [http-nio-8080-exec-3] in.thirumal.service.LogsSseService       : ha 1
+2024-06-19T10:00:25.584+05:30  INFO 1830 --- [http-nio-8080-exec-3] in.thirumal.service.LogsSseService       : ha 2
+2024-06-19T10:00:25.584+05:30  INFO 1830 --- [http-nio-8080-exec-3] in.thirumal.service.LogsSseService       : ha 3
+2024-06-19T10:00:25.584+05:30  INFO 1830 --- [http-nio-8080-exec-3] in.thirumal.service.LogsSseService       : ha 4
+2024-06-19T10:00:28.006+05:30  INFO 1830 --- [http-nio-8080-exec-4] in.thirumal.service.LogsSseService       : ha 0
+2024-06-19T10:00:28.007+05:30  INFO 1830 --- [http-nio-8080-exec-4] in.thirumal.service.LogsSseService       : ha 1
+2024-06-19T10:00:28.007+05:30  INFO 1830 --- [http-nio-8080-exec-4] in.thirumal.service.LogsSseService       : ha 2
+2024-06-19T10:00:28.007+05:30  INFO 1830 --- [http-nio-8080-exec-4] in.thirumal.service.LogsSseService       : ha 3
+2024-06-19T10:00:28.007+05:30  INFO 1830 --- [http-nio-8080-exec-4] in.thirumal.service.LogsSseService       : ha 4
+2024-06-19T10:00:30.165+05:30  INFO 1830 --- [http-nio-8080-exec-5] in.thirumal.service.LogsSseService       : ha 0
+2024-06-19T10:00:30.165+05:30  INFO 1830 --- [http-nio-8080-exec-5] in.thirumal.service.LogsSseService       : ha 1
+2024-06-19T10:00:30.165+05:30  INFO 1830 --- [http-nio-8080-exec-5] in.thirumal.service.LogsSseService       : ha 2
+2024-06-19T10:00:30.165+05:30  INFO 1830 --- [http-nio-8080-exec-5] in.thirumal.service.LogsSseService       : ha 3
+2024-06-19T10:00:30.165+05:30  INFO 1830 --- [http-nio-8080-exec-5] in.thirumal.service.LogsSseService       : ha 4
+2024-06-19T10:02:18.464+05:30  INFO 1830 --- [http-nio-8080-exec-9] in.thirumal.service.LogsSseService       : ha 0
+2024-06-19T10:02:18.465+05:30  INFO 1830 --- [http-nio-8080-exec-9] in.thirumal.service.LogsSseService       : ha 1
+2024-06-19T10:02:18.465+05:30  INFO 1830 --- [http-nio-8080-exec-9] in.thirumal.service.LogsSseService       : ha 2
+2024-06-19T10:02:18.465+05:30  INFO 1830 --- [http-nio-8080-exec-9] in.thirumal.service.LogsSseService       : ha 3
+2024-06-19T10:02:18.465+05:30  INFO 1830 --- [http-nio-8080-exec-9] in.thirumal.service.LogsSseService       : ha 4
+2024-06-19T10:02:19.593+05:30  WARN 1830 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: Broken pipe]
+2024-06-19T10:02:44.154+05:30  INFO 1830 --- [http-nio-8080-exec-1] in.thirumal.service.LogsSseService       : ha 0
+2024-06-19T10:02:44.154+05:30  INFO 1830 --- [http-nio-8080-exec-1] in.thirumal.service.LogsSseService       : ha 1
+2024-06-19T10:02:44.155+05:30  INFO 1830 --- [http-nio-8080-exec-1] in.thirumal.service.LogsSseService       : ha 2
+2024-06-19T10:02:44.155+05:30  INFO 1830 --- [http-nio-8080-exec-1] in.thirumal.service.LogsSseService       : ha 3
+2024-06-19T10:02:44.155+05:30  INFO 1830 --- [http-nio-8080-exec-1] in.thirumal.service.LogsSseService       : ha 4
+2024-06-19T10:02:49.278+05:30  INFO 1830 --- [http-nio-8080-exec-2] in.thirumal.service.LogsSseService       : ha 0
+2024-06-19T10:02:49.280+05:30  INFO 1830 --- [http-nio-8080-exec-2] in.thirumal.service.LogsSseService       : ha 1
+2024-06-19T10:02:49.281+05:30  INFO 1830 --- [http-nio-8080-exec-2] in.thirumal.service.LogsSseService       : ha 2
+2024-06-19T10:02:49.281+05:30  INFO 1830 --- [http-nio-8080-exec-2] in.thirumal.service.LogsSseService       : ha 3
+2024-06-19T10:02:49.281+05:30  INFO 1830 --- [http-nio-8080-exec-2] in.thirumal.service.LogsSseService       : ha 4
+2024-06-19T10:03:39.509+05:30  INFO 1830 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-06-19T10:03:39.514+05:30  WARN 1830 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Ignoring exception, response committed already: org.springframework.web.context.request.async.AsyncRequestTimeoutException
+2024-06-19T10:03:39.514+05:30  WARN 1830 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2024-06-19T10:15:50.166+05:30  INFO 3956 --- [restartedMain] in.thirumal.ServerSentEventApplication   : Starting ServerSentEventApplication using Java 21.0.2 with PID 3956 (/Users/thirumal/git/server-sent-event/target/classes started by thirumal in /Users/thirumal/git/server-sent-event)
+2024-06-19T10:15:50.167+05:30  INFO 3956 --- [restartedMain] in.thirumal.ServerSentEventApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T10:15:50.197+05:30  INFO 3956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-19T10:15:50.198+05:30  INFO 3956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-19T10:15:50.617+05:30  INFO 3956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-19T10:15:50.624+05:30  INFO 3956 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T10:15:50.624+05:30  INFO 3956 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T10:15:50.640+05:30  INFO 3956 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T10:15:50.640+05:30  INFO 3956 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 442 ms
+2024-06-19T10:15:50.807+05:30  INFO 3956 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-19T10:15:50.819+05:30  INFO 3956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-19T10:15:50.824+05:30  INFO 3956 --- [restartedMain] in.thirumal.ServerSentEventApplication   : Started ServerSentEventApplication in 0.84 seconds (process running for 1.481)
+2024-06-19T10:24:03.191+05:30  INFO 3956 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19T10:24:03.192+05:30  INFO 3956 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-19T10:24:03.193+05:30  INFO 3956 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-19T10:24:33.712+05:30  INFO 3956 --- [http-nio-8080-exec-4] in.thirumal.service.LogsSseService       : ha 0
+2024-06-19T10:24:33.715+05:30  INFO 3956 --- [http-nio-8080-exec-4] in.thirumal.service.LogsSseService       : ha 1
+2024-06-19T10:24:33.715+05:30  INFO 3956 --- [http-nio-8080-exec-4] in.thirumal.service.LogsSseService       : ha 2
+2024-06-19T10:24:33.715+05:30  INFO 3956 --- [http-nio-8080-exec-4] in.thirumal.service.LogsSseService       : ha 3
+2024-06-19T10:24:33.715+05:30  INFO 3956 --- [http-nio-8080-exec-4] in.thirumal.service.LogsSseService       : ha 4
+2024-06-19T10:25:11.041+05:30  INFO 3956 --- [http-nio-8080-exec-5] in.thirumal.service.LogsSseService       : ha 0
+2024-06-19T10:25:11.042+05:30  INFO 3956 --- [http-nio-8080-exec-5] in.thirumal.service.LogsSseService       : ha 1
+2024-06-19T10:25:11.042+05:30  INFO 3956 --- [http-nio-8080-exec-5] in.thirumal.service.LogsSseService       : ha 2
+2024-06-19T10:25:11.042+05:30  INFO 3956 --- [http-nio-8080-exec-5] in.thirumal.service.LogsSseService       : ha 3
+2024-06-19T10:25:11.042+05:30  INFO 3956 --- [http-nio-8080-exec-5] in.thirumal.service.LogsSseService       : ha 4
+2024-06-19T10:25:34.100+05:30  INFO 3956 --- [http-nio-8080-exec-6] in.thirumal.service.LogsSseService       : ha 0
+2024-06-19T10:25:34.101+05:30  INFO 3956 --- [http-nio-8080-exec-6] in.thirumal.service.LogsSseService       : ha 1
+2024-06-19T10:25:34.102+05:30  INFO 3956 --- [http-nio-8080-exec-6] in.thirumal.service.LogsSseService       : ha 2
+2024-06-19T10:25:34.102+05:30  INFO 3956 --- [http-nio-8080-exec-6] in.thirumal.service.LogsSseService       : ha 3
+2024-06-19T10:25:34.102+05:30  INFO 3956 --- [http-nio-8080-exec-6] in.thirumal.service.LogsSseService       : ha 4
