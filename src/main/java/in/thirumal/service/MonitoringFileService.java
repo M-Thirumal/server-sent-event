@@ -48,7 +48,7 @@ public class MonitoringFileService {
 
         key = monitoringDirectory.register(ws, ENTRY_MODIFY);
 
-        executorService.submit(() -> monitor());
+        executorService.submit(this::monitor);
     }
 
     public void listen(Consumer<Path> consumer) {
@@ -67,14 +67,14 @@ public class MonitoringFileService {
                     final Path changed = monitoringDirectory.resolve((Path) event.context());
 
                     if (event.kind() == ENTRY_MODIFY && changed.equals(file)) {
-                        log.trace("monitor - ENTRY_MODIFY: " + changed);
+                        log.trace("monitor - ENTRY_MODIFY: {}", changed);
                         callbacks.forEach(c -> c.accept(changed));
                     }
                 }
 
                 boolean isKeyStillValid = key.reset();
                 if (!isKeyStillValid) {
-                    log.trace("monitor - key is no longer valid: " + key);
+                    log.trace("monitor - key is no longer valid: {}", key);
                     listen.set(false);
                 }
             } catch (InterruptedException ex) {
