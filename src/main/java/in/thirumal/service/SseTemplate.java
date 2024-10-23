@@ -8,7 +8,6 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.springframework.stereotype.Service;
@@ -39,7 +38,7 @@ public class SseTemplate {
                             .flatMap(sseEmitter -> Stream.of(sendMessage(event, sseEmitter))
                                     .filter(isSuccess -> !isSuccess)
                                     .map(a -> sseEmitter))
-                            .collect(Collectors.toList());
+                            .toList();
                     sseEmitters.removeAll(unavailableEmitters);
                 });
     }
